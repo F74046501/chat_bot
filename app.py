@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from fsm import grab_all_title
 
 API_TOKEN = '484840033:AAE3y63PM1OQJITBL1aV3HFQpeVWvVCxqg4'
-WEBHOOK_URL ='https://4b5e1c4d.ngrok.io/hook'
+WEBHOOK_URL ='https://60a4a3c8.ngrok.io/hook'
 
 app = Flask(__name__)
 bot = telegram.Bot(token=API_TOKEN)
